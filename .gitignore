@@ -1,0 +1,14 @@
+# Archivos binarios (compilados)
+bin/
+*.o
+
+# Entorno virtual de Python
+.venv/
+
+# Resultados del experimento
+data/results.csv
+
+# Carpetas de sistema y archivos temporales
+__pycache__/
+.DS_Store
+.vscode/
