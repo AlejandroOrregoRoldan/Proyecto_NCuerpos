@@ -44,7 +44,7 @@ Proyecto_NCuerpos/
 
 ### Sistema Operativo
 - **Linux** (Ubuntu 20.04 o superior recomendado) o cualquier distribución compatible con **POSIX**.
-  > ⚠️ El código paralelo usa `fork()`, `shmget()`, `shmat()` y `sys/wait.h`, que son llamadas al sistema exclusivas de **entornos POSIX (Linux/macOS)**. **No es compatible de forma nativa con Windows**.  
+  > **IMPORTANTE:** El código paralelo usa `fork()`, `shmget()`, `shmat()` y `sys/wait.h`, que son llamadas al sistema exclusivas de **entornos POSIX (Linux/macOS)**. **No es compatible de forma nativa con Windows**.  
   > En Windows se recomienda usar **WSL 2** (Windows Subsystem for Linux).
 
 ### Dependencias de Compilación (C++)
