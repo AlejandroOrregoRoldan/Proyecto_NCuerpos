@@ -161,7 +161,7 @@ python3 scripts/experiment.py
 python3 scripts/plot_results.py
 ```
 
-> ⚠️ El experimento completo realiza **360 simulaciones** y puede tardar varios minutos dependiendo del hardware.
+> **IMPORTANTE:** El experimento completo realiza **360 simulaciones** y puede tardar varios minutos dependiendo del hardware.
 
 ---
 
